@@ -13,30 +13,77 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
 <!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
-<title>Eric Lopez Art</title>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+<title>Eric Lopez</title>
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: right;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 125%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.fa-instagram {
+  
+  color: blue;
+}
+</style>
 </head>
-
 <body>
 <div class="container">
 <div class="jumbotron">
 
 <h1>Eric Lopez Art</h1> 
 </div>
-<nav class="navbar navbar-expand-sm bg-light navbar-light">
+<nav class="navbar navbar-expand-sm bg-light justify-content-center">
  <ul class="navbar-nav">
  	<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 	<li class="nav-item"><a class="nav-link" href="second_page.html">Glitch Art</a></li>
 	<li class="nav-item"><a class="nav-link" href="third_page.html">Meme Mashup</a></li>
     <li class="nav-item"><a class="nav-link" href="fourth_page.html">Zbrush</a>      </li>
 	 <li class="nav-item"><a class="nav-link" href="fifth_page.html">Blender</a></li>
-    <li class="nav-item"><a class="nav-link" href="net_art/index.html">net-art</a></li>
+
+    <li class="nav-item dropdown">
+     <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+     Net-Art
+     </a>
+      <div class="dropdown-menu">
+       <a class="dropdown-item" href="net_art/index.html">Eye Of The Beholder</a>
+       <a class="dropdown-item" href="net_art/second_page.html">DMA Artworks</a>
+       <a class="dropdown-item" href="net_art/third_page.html">Artworks Continued</a>
+       </div>
+       </li>
+
     <li class="nav-item"><a class="nav-link" href="about.html">About me</a></li>
 </ul> 
 </nav>
 </div> <br>
 <img src="oldstonesc.jpg" class= "img-fluid rounded mx-auto d-block" alt="woman"> <br> <br>
+<div class="container">
+  <div class="center">
+    <a href="https://instagram.com/ericlopezart" class="fa fa-instagram"></a>
+  </div>
+</div>
 
 
 </body>
